@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    /* position: fixed;
+    top: 0; */
+}
+
+.navbar {
+    width: 100vw;
+    height: 22vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dps {
+    font-size: 2em;
+}
+
+.school {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head {
+    background-color: green;
+    width: 100vw;
+    height: 3vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size:x-large;
+    text-transform: uppercase;
+}
+.align{
+    margin-top: 10px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.form {
+    padding: 10px;
+    background-color: antiquewhite;
+    width: 20vw;
+    border: 2px solid green;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: none;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.radio{
+    margin-bottom: 10px;
+}
+
+.btn2 {
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color:green;
+    border: none;
+    font-size:medium;
+}
+
+.input{
+    width: 250px;
+    height: 20px;
+    margin-bottom: 10px;
+    gap: 10px;
+}
